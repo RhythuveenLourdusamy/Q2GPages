@@ -1,0 +1,62 @@
+REQUEST DETAILS: 
+METHOD: POST 
+ URL: https://jeeves.stage.dep-search.com/v1/api/analytics/conversation
+ HEADER: User-Agent: python-requests/2.32.2
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+x-request-id: c56b0540-47byy-92f4-a6f5-83ef19e57e4c
+x-fw-dialogue-id: ay2a9ede-7211-4ef8-84c0-67c933463b93
+x-fw-dialogue-source: ai-first-01f678f0-ee93-4628-9e3b-79257863e7f8
+x-fw-request-id: c56b0540-47bb-92f4-a6f5-83ef19y57e4c
+intent-handler-id: freshservice-analytics_fs-v1
+analytics-product-name: freshservice
+accept-language: en
+firstname: Nagendra
+lastname: Maddala
+email: nagendra.maddhala@freshworks.com
+timezone: Asia/Kolkata
+portalurl: https://rcatestaccount.freshcmdb.com
+mode: sd
+language: en
+roles: {"global":"Manage","module":{"eSignature Usage":"Manage","Services":"Manage"}}
+pii_mode: visible
+x-fw-auth-account-id: 102065423
+x-fw-auth-user-id: 13325590
+timeformat: 12
+x-fw-auth-user-email: dscds
+Content-Type: application/json
+x-fw-heimdall-status: RESOLVED
+x-fw-auth-domain: https://rcatestaccount.freshcmdb.com
+x-fw-user-bundle-status: ACTIVATED
+x-fw-authorization: eyJraWQiOiI5MjU5NTcxMDIwNTk3MjY0MCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI3MTI4Njc2MjQwMDYxMDk5MjciLCJpc3MiOiJodHRwczovL3JjYXRlc3RhY2NvdW50Lm15ZnJlc2h3b3Jrcy5kZXYiLCJhdWQiOiIzODU0NzQzNDI2NjM0NTQ3NSIsIm9yZ2FuaXNhdGlvbl9pZCI6IjcxMjg2NzYyMzc0MTg2ODc2NyIsImF1dGhfZW50cnlfaWRzIjpbeyJhdXRoX2lkIjoiNzEyODY3NjIzOTM5MDAxMDU5IiwiZW50cnlfaWQiOiIifV0sIm1vZHVsZV9pZCI6IjcxMjg2NzYyMzkzOTAwMTA1OSIsInNjb3BlIjpbIkVNUExPWUVFIiwiT1JHX0FETUlOIiwiVVNFUiJdLCJwcm9kdWN0X2lkIjoiMTEyNzQwMTgyMjA0MzAzNTUwIiwib3JnYW5pc2F0aW9uX2RvbWFpbiI6InJjYXRlc3RhY2NvdW50Lm15ZnJlc2h3b3Jrcy5kZXYiLCJleHAiOjE3NTQyMDUwNTQsImlhdCI6MTcyMjU4MjY1NCwianRpIjoiNzM5Mzc5Njg2NTc0NTk0MTk1IiwiZW1haWwiOiJuYWdlbmRyYS5tYWRkaGFsYUBmcmVzaHdvcmtzLmNvbSJ9.b3l_3ebSHr3q4QhfPUOpQEze6njYWN7UgC4uIV0ZhBs02QG3UtROrM3HvTeUi1OdeMuDTDzK3t2cu-IIPFySkcF47Bafi0pRfYiZ_KSbKdRr2jc1lEBd0QDrEIEuKQhS8bNufqQOk5EyHvBDN_Xc4F0W_5e3-8in6vixMhoSz62qGcyrVJtsawAoreIAMReVTVVlj3LkGNarC3oHVdz5E733tnOyTFHY62TVraarpX1OOJgNmu12QQwXDt9cch-e_XdNvrIJviTiaTuDo4ylDSNH8OWDHWYv3PwIzoLEUfVz1wXqyqg9yVB0LSZ4x18AepKhdKfO_mAkuuGvpHMX5w
+x-fw-auth-org-id: 712867623741868767
+Content-Length: 250
+ REQUEST BODY: {
+    "newMessages": [
+        {
+            "type": "question",
+            "content": "Show count of Logitech Vendor Assets",
+            "role": "user",
+            "hidden": false,
+            "system": "false",
+            "oneWay": "false",
+            "mimeType": "text/plain",
+            "timestamp": 1729004945.021159
+        }
+    ],
+    "history": {
+        "messages": [
+            {}
+        ]
+    }
+}
+RESPONSE DETAILS: 
+ STATUS CODE: 504 
+ RESPONSE BODY: {
+    "detail": {
+        "message": "Did not receive a timely response"
+    }
+}
+{'Date': 'Tue, 15 Oct 2024 15:09:59 GMT', 'Content-Type': 'application/json', 'Content-Length': '58', 'Connection': 'keep-alive', 'server': 'uvicorn', 'x-request-id': 'c56b0540-47byy-92f4-a6f5-83ef19e57e4c', 'traceparent': ''}
+Max retries (1) reached.
