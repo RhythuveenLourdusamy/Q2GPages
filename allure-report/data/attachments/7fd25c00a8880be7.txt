@@ -1,0 +1,102 @@
+REQUEST DETAILS: 
+METHOD: POST 
+ URL: https://jeeves.stage.dep-search.com/v1/api/analytics/conversation
+ HEADER: User-Agent: python-requests/2.32.2
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+x-request-id: c56b0540-47byy-92f4-a6f5-83ef19e57e4c
+x-fw-dialogue-id: ay2a9ede-7211-4ef8-84c0-67c933463b93
+x-fw-dialogue-source: ai-first-48d3e179-9ba6-45fe-825f-d5b91a763d24
+x-fw-request-id: c56b0540-47bb-92f4-a6f5-83ef19y57e4c
+intent-handler-id: freshservice-analytics_fs-v1
+analytics-product-name: freshservice
+accept-language: en
+firstname: Nagendra
+lastname: Maddala
+email: nagendra.maddhala@freshworks.com
+timezone: Asia/Kolkata
+portalurl: https://rcatestaccount.freshcmdb.com
+mode: sd
+language: en
+roles: {"global":"Manage","module":{"eSignature Usage":"Manage","Services":"Manage"}}
+pii_mode: visible
+x-fw-auth-account-id: 102065423
+x-fw-auth-user-id: 13325590
+timeformat: 12
+x-fw-auth-user-email: dscds
+Content-Type: application/json
+x-fw-heimdall-status: RESOLVED
+x-fw-auth-domain: https://rcatestaccount.freshcmdb.com
+x-fw-user-bundle-status: ACTIVATED
+x-fw-authorization: eyJraWQiOiI5MjU5NTcxMDIwNTk3MjY0MCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI3MTI4Njc2MjQwMDYxMDk5MjciLCJpc3MiOiJodHRwczovL3JjYXRlc3RhY2NvdW50Lm15ZnJlc2h3b3Jrcy5kZXYiLCJhdWQiOiIzODU0NzQzNDI2NjM0NTQ3NSIsIm9yZ2FuaXNhdGlvbl9pZCI6IjcxMjg2NzYyMzc0MTg2ODc2NyIsImF1dGhfZW50cnlfaWRzIjpbeyJhdXRoX2lkIjoiNzEyODY3NjIzOTM5MDAxMDU5IiwiZW50cnlfaWQiOiIifV0sIm1vZHVsZV9pZCI6IjcxMjg2NzYyMzkzOTAwMTA1OSIsInNjb3BlIjpbIkVNUExPWUVFIiwiT1JHX0FETUlOIiwiVVNFUiJdLCJwcm9kdWN0X2lkIjoiMTEyNzQwMTgyMjA0MzAzNTUwIiwib3JnYW5pc2F0aW9uX2RvbWFpbiI6InJjYXRlc3RhY2NvdW50Lm15ZnJlc2h3b3Jrcy5kZXYiLCJleHAiOjE3NTQyMDUwNTQsImlhdCI6MTcyMjU4MjY1NCwianRpIjoiNzM5Mzc5Njg2NTc0NTk0MTk1IiwiZW1haWwiOiJuYWdlbmRyYS5tYWRkaGFsYUBmcmVzaHdvcmtzLmNvbSJ9.b3l_3ebSHr3q4QhfPUOpQEze6njYWN7UgC4uIV0ZhBs02QG3UtROrM3HvTeUi1OdeMuDTDzK3t2cu-IIPFySkcF47Bafi0pRfYiZ_KSbKdRr2jc1lEBd0QDrEIEuKQhS8bNufqQOk5EyHvBDN_Xc4F0W_5e3-8in6vixMhoSz62qGcyrVJtsawAoreIAMReVTVVlj3LkGNarC3oHVdz5E733tnOyTFHY62TVraarpX1OOJgNmu12QQwXDt9cch-e_XdNvrIJviTiaTuDo4ylDSNH8OWDHWYv3PwIzoLEUfVz1wXqyqg9yVB0LSZ4x18AepKhdKfO_mAkuuGvpHMX5w
+x-fw-auth-org-id: 712867623741868767
+Content-Length: 267
+ REQUEST BODY: {
+    "newMessages": [
+        {
+            "type": "question",
+            "content": "What are the Top 20 Changes Associated Problems Count",
+            "role": "user",
+            "hidden": false,
+            "system": "false",
+            "oneWay": "false",
+            "mimeType": "text/plain",
+            "timestamp": 1729005011.225636
+        }
+    ],
+    "history": {
+        "messages": [
+            {}
+        ]
+    }
+}
+RESPONSE DETAILS: 
+ STATUS CODE: 200 
+ RESPONSE BODY: {
+    "response": [
+        {
+            "role": null,
+            "system": false,
+            "hidden": false,
+            "mimeType": "reports",
+            "content": "{\"reportData\":{\"id\":null,\"applicationId\":1,\"resource\":null,\"title\":\"Untitled\",\"startOfWeek\":\"Sunday\",\"chartType\":null,\"relatedChartTypes\":null,\"data\":null,\"totalData\":null,\"xLabel\":null,\"yLabel\":null,\"functionLabel\":null,\"totalCount\":null,\"type\":\"CUSTOMIZED\",\"groupBy\":[],\"measureUnit\":null,\"schedule\":null,\"subscribedSchedule\":null,\"nestedFilter\":null,\"nestedGroupFilter\":null,\"metrics\":[],\"sortType\":null,\"sortLimit\":null,\"zoomInData\":null,\"improvement\":null,\"dateRangeDimensionAvailable\":true,\"meta\":null,\"interactiveConfig\":null,\"metricQueries\":null,\"nestedPageFilter\":{\"id\":null,\"requestResource\":null,\"resource\":null,\"filtersMap\":null,\"equation\":null,\"nestedFilterModule\":null,\"updatable\":false,\"empty\":true},\"modified\":false,\"description\":null,\"initialSheetData\":null,\"applyModifiedData\":true,\"sortConfiguration\":null,\"pastforeCastData\":null,\"originalTitle\":null,\"uuid\":null,\"aggregateExportEnabled\":false,\"aggregateExportAttributes\":null,\"confidenceInterval\":null,\"rolesJson\":{\"pages\":{\"landing\":{\"newReport\":true,\"NEW_CHART_CUSTOMISATION\":true,\"QUICK_CONTEXTUAL_HELP\":false,\"EXPIRY_FOR_DATA_EXPORTS\":false,\"customAttribute\":true,\"navigation\":true,\"SUPPORT_LINKS\":false,\"NEW_FREDDY_ICON\":true,\"MULTIPLE_SCHEDULE\":true,\"SUPPORT_CORRECT_VALUES\":true,\"ANALYTICS_LIBRARY\":true,\"EXPIRY_FOR_SCHEDULE\":false,\"NEW_HOMEPAGE\":false,\"CHECK_SCHEDULE_EDIT_ACCESS\":true,\"showCustom\":true,\"multipartUpload\":false,\"ENABLE_USER_CURATED_RESTRICTIONS\":false,\"ENABLE_RCA\":true,\"UNLOAD_IN_APP_EXPORT\":true,\"CONVERSATION_ANALYTICS\":true,\"BASIC_STYLING\":true,\"highcharts\":true,\"ENABLE_METRIC_GUIDE\":false,\"conditionalDataExports\":true,\"SKIP_ROLES_IN_JWT\":false,\"POINT_IN_TIME_Q2G_ALPHA\":true,\"CHART_CUSTOMISATION\":true,\"enableHourlyDataExport\":true,\"UNLOAD_ADVANCED_SCHEDULE\":true,\"SELF_JOIN_ATTRIBUTE_NOT_SKIPPED\":true,\"VIDEOS\":false,\"RESTRICT_DE_DOWNLOAD\":true,\"SUB_QUERY_SKIP_NESTED_FILTERS_ON_CYCLIC_DEPENDENCY\":true,\"URB\":true,\"IS_NONE_ACCESS_ENABLED\":false,\"ADVANCED_FUNCTIONS\":true,\"CONVERSATIONAL_INTERACTIONS\":true,\"search\":true,\"NLP\":false,\"INSIGHTS_V2_Q2G\":true,\"PRE_CACHE\":true,\"NEW_HELP\":false,\"ADVANCED_METRIC\":true,\"dataSchedules\":true,\"LOGICAL_FUNCTIONS\":true,\"WORKSPACE_SUPPORT\":true,\"SHOW_DESCRIPTION\":true,\"includeWidgetPDF\":true,\"UNLOAD_SCHEDULE\":true,\"EXPIRY_FOR_SUBSCRIBE\":false},\"widget\":{\"ENABLE_NUMBER_DISPLAY_UNIT\":true,\"isAnyFilterChangesEnabled\":true,\"editTabularData\":true,\"NEW_CHART_DRILLDOWN\":true,\"IN_APP_DOWNLOAD\":true,\"QUERY_PARALLELIZATION_ONLY_CUSTOMIZED_REPORTS\":true,\"SHM\":true,\"export\":true,\"TABULAR_PDF\":true,\"RESTRICT_SECONDARY_ASSOCIATION\":true,\"enableHourlySchedules\":true,\"DELETE_SUPPORT_CUSTOM_OBJECTS\":true,\"ENABLE_CUSTOM_ASSOCIATION_WITH_MODULE\":true,\"UNDERLYING_DATA_EXPORTS\":true,\"IS_WORKSPACE_NULL_CHECK_FOR_ASSOCIATED_MODULE\":true,\"TABULAR_COLUMNS_UPDATE_CHECK_ENABLED\":true,\"ENHANCED_GROUPBY\":true,\"basicFilter\":true,\"showTabularData\":true,\"addToReports\":true,\"GROUPING_TO_OTHERS\":true,\"saveAs\":true,\"DE_DUPLICATE_INAPP_EXPORT_ENABLED\":true,\"SUPPORT_CONDITIONAL_METRIC_FILTERS_TABULAR\":true,\"save\":true,\"INTERACTIVE_CONFIG\":true,\"UNDERLYING_DATA_FILTERS\":true,\"groupBy\":true,\"API_CACHING\":true,\"delete\":true,\"PARAGRAPH_FIELD_ENABLED\":true,\"LARGE_INAPP_EXPORT_QUEUE_ENABLED\":true,\"CONDITIONAL_ASSOCIATION\":true,\"SKIP_DISCRIMINATOR_JOIN\":true,\"RECOMMENDATIONS\":true,\"CONDITIONAL_METRICS\":true,\"crossModule\":true,\"ONE_TO_MANY_NEW_AGGREGATION_LOGIC\":true,\"QUERY_PARALLELIZATION_ONLY_CURATED_REPORTS\":true,\"SORT_FUNCTION\":true,\"changeChart\":true,\"ENABLE_CUSTOM_ASSOCIATION\":true,\"RENOVATED_SHEET_TABLE\":true,\"DEPENDENT_HYPERLINK_ATTRIBUTES_FLAG\":true,\"MULTI_LEVEL_ONE_TO_MANY\":true,\"enableHourlySubscribe\":true,\"subscribe\":true,\"SHOW_TREND_CHANGE_FOR_BASE_METRIC\":false,\"CONDITIONAL_BUG_FIX\":true,\"TASK_CUSTOM_FIELDS_SKIP_CONDITIONAL\":true,\"TABULAR_COUNT_CHECK_ENABLED\":true,\"DATE_RANGE_INTERSECTION\":true,\"configure\":true,\"widgetFilter\":true,\"NEW_WIDGET_EXPERIENCE\":true,\"filter\":true,\"schedule\":true,\"tabularAssociations\":true,\"SUB_TOTALS\":true,\"NESTED_DATA_SCOPING_LIMIT\":true,\"metric\":true,\"TABULAR_XLSX\":true,\"ENABLE_CONDITIONAL_LEGENDS_FIX\":true},\"report\":{\"UNSAVED_FILTER_EXPORTS\":true,\"save\":true,\"viewModule\":true,\"REPORT_SHARING\":true,\"dateRangeFilter\":true,\"pageFilter\":true,\"ONE_TO_MANY_IS_AS_EXACT\":true,\"isCustomMailEnabled\":true,\"delete\":true,\"IN_APP_DOWNLOAD\":true,\"searchWidget\":true,\"REPORT_SHARING_GROUPS\":true,\"COUNT_QUERY_FIX_ENABLED\":false,\"RECOMMENDATIONS\":true,\"EXPORT_REPORT_GROUP_PDF_BY_MERGING_PAGES\":false,\"SECRET_GROUP\":true,\"presentationMode\":true,\"export\":true,\"ENABLE_TOOLTIP_FOR_OLD_CURATED_REPORT\":false,\"PUBLIC_FIELDS\":true,\"enableHourlySubscribe\":true,\"subscribe\":true,\"enableHourlySchedules\":true,\"REPORT_TRASH\":true,\"format\":true,\"ENABLE_CURRENCY_LOCALISATION\":true,\"ENABLE_NUMBER_LOCALISATION\":true,\"ENABLE_DATE_LOCALISATION\":true,\"addWidgets\":true,\"filter\":true,\"schedule\":true,\"IS_REPORT_GROUP_TAGS_ENABLED\":false,\"basicFilter\":true,\"clone\":true,\"migration\":true,\"ASSOCIATION_PREDEFINED_DATERANGE_FILTER\":true,\"includeWidgetPDF\":true,\"FAVORITE_REPORT\":false,\"interactiveFilter\":true,\"DB_UPDATED_TIME_FLAG\":true,\"ENABLE_REPORT_GROUP_SEARCH_FILTERS\":true}}},\"accessible\":true,\"hasDeletedAttributes\":false,\"widgetType\":null,\"emptyWidget\":false,\"styling\":null,\"associatedGroups\":null,\"isConfigsModified\":false,\"hasDeletedCustomMetaData\":false,\"timezone\":null,\"deleted\":false,\"newWidget\":false,\"foreCastData\":null},\"reportGroupData\":null,\"relatedQuestions\":null,\"buttons\":[\"saveWidget\",\"showRelatedQuestions\"],\"handlerId\":null,\"action\":null,\"portalURL\":null,\"analyticsURL\":null,\"uiType\":\"chart\",\"source\":null,\"analyticsDomainURL\":null,\"reportGroups\":null,\"reportGroupName\":null,\"reportGroupId\":null,\"rca\":null,\"insightConfig\":null,\"generatedTime\":null,\"localisationSettings\":null}",
+            "oneWay": false
+        }
+    ],
+    "common_json": {
+        "select": [
+            {
+                "resource": "c",
+                "name": "Associated Problems Count",
+                "type": "FIELD"
+            }
+        ],
+        "limit": 20,
+        "orderby": [
+            {
+                "resource": "c",
+                "name": "Associated Problems Count",
+                "type": "FIELD",
+                "order": "desc"
+            }
+        ],
+        "resources": {
+            "c": {
+                "product": "freshservice",
+                "name": "Changes"
+            }
+        },
+        "from": [
+            {
+                "product": "freshservice",
+                "resource": "c",
+                "name": "Changes",
+                "type": "RESOURCE"
+            }
+        ]
+    },
+    "newState": null,
+    "responseCode": "DONE"
+}
+{'Date': 'Tue, 15 Oct 2024 15:10:20 GMT', 'Content-Type': 'application/json', 'Content-Length': '6728', 'Connection': 'keep-alive', 'server': 'uvicorn', 'jeeves-wf-id': '7f9af9a9-2397-4efa-a9cf-6f2091e67ce1', 'x-request-id': 'c56b0540-47byy-92f4-a6f5-83ef19e57e4c', 'traceparent': ''}
